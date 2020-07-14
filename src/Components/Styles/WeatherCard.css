@@ -1,0 +1,20 @@
+.WeatherCard {
+  display: flex;
+  flex-direction: column;
+
+  padding: 0px 5px;
+}
+
+.WeatherCard img {
+  height: 120px;
+}
+
+.WeatherCard__Temp {
+  display: flex;
+  justify-content: space-around;
+}
+
+.WeatherCard__Selected {
+  border: 1px solid #33ceff;
+  box-shadow: 5px 5px 5px gray;
+}

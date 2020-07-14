@@ -1,0 +1,38 @@
+.Navbar {
+  width: 100%;
+  padding: 0.5rem 0;
+  background-color: #33ceff;
+}
+
+.Navbar__brand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: black;
+  padding: 0 1rem;
+}
+
+.Navbar__brand__Home {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: black;
+  padding: 0 1rem;
+  flex-grow: 10;
+}
+
+.Navbar__brand__Help {
+  flex-grow: 1;
+  padding: 0 1rem;
+  color: black;
+}
+
+.Navbar__brand__Home:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.Navbar__brand__Help:hover {
+  text-decoration: none;
+  color: black;
+}
